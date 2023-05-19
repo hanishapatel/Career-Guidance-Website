@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+}
+.main{
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #272727;
+    line-height: 100px;
+    padding: 35px 10px;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}/*
+nav ul li a i{
+    font-size: 40px;
+    color: #3278fa;
+}*/
+.logo{
+    float: left;
+    line-height: 100px;
+}
+
+.phoneno{
+    float: right;
+    color: gray;
+}
+
+.slider{
+    width: 100%;
+    height: 630px;
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../img/3.png);
+    background-position: center;
+    display: flex;
+    align-items: center;
+    
+}
+.slider .title{
+    width: 40%;
+    height: auto;
+    position: absolute;
+    left: 18.5%;
+}
+.slider .title h1{
+    font-size: 57px;
+    color: black;
+    line-height: 65px;
+}
+.slider .title h1 span{
+    color: cyan;
+}
+.slider .title p{
+    font-size: 20px;
+    color: #272727;
+    line-height: 1.5;
+    margin-top: 15px;
+    padding-right: 20px;
+}
+.slider .title .btn{
+    color: whitesmoke;
+    background-color: aqua;
+    border-radius: 5px;
+    padding: 16px 36px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    margin-right: 10px;
+    line-height: 26px;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 15px;
+    transition: 0.3s all;
+}
+.slider .title .btn:hover{
+    background-color: #272727;
+}
+.flex-container{
+    /*margin-top: 50px;*/
+    clear: both;
+    flex-direction: center;
+}
+.main .flex-container .flex-items{
+   /* width: 20%;*/
+    /*text-align: center;
+    margin-left: 120px;*/
+    border: 1px solid darkgray;
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 25px;
+    width: 300px;
+    height: 200px;
+    padding: 5px;
+    
+}
+
+.main .flex-container .flex-items h5{
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    margin: 20px 0px;
+}
+.main .flex-container .flex-items p{
+    color: #727272;
+}
+.main .flex-container .flex-items .text-blue{
+    font-size: 40px;
+    color: #3278fa;
+}
+.head{
+    margin-left: 100px;
+    color: rgb(34, 34, 126);
+    font-size: 35px;
+    line-height: 90px;
+}
+.main .flex-container .flex-items2{
+    /*width: 20%;
+    display: inline-block;
+    text-align: center;
+    margin-left: 120px;*/
+    border: 1px solid darkgray;
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 5px;
+    width: 300px;
+    height: 200px;
+    padding: 5px;
+}
+.main .flex-container .flex-items2:hover{
+    background-color: rgb(229, 235, 240);
+}
+.main .flex-container .flex-items2 h5{
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    margin: 20px 0px;
+}
+.main .flex-container .flex-items2 p{
+    color: #727272;
+}
+.main .flex-container .flex-items2 .text-blue{
+    font-size: 40px;
+    color: #3278fa;
+}
+.main .flex-container .flex-items3{
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+    margin-left: 120px;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px grey;
+    text-align: center;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 15px;
+    width: 300px;
+    height: 200px;
+    padding: 5px;
+}
+.main .flex-container .flex-items3:hover{
+    background-color: rgb(229, 235, 240);
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px grey;
+    text-align: center;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 5px;
+    width: 300px;
+    height: 200px;
+    padding: 5px;
+}
+.main .flex-container .flex-items3 h5{
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    margin: 20px 0px;
+}
+.main .flex-container .flex-items3 p{
+    color: #727272;
+}
+.main .flex-container .flex-items3 .text-blue{
+    font-size: 40px;
+    color: #3278fa;
+}
+.browse .btn{
+    float: right;
+    color: whitesmoke;
+    background-color: aqua;
+    padding: 16px 36px;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    margin-right: 60px;
+    font-size: 16px;
+    margin-top: 15px;
+    border-radius: 27px;
+    transition: 0.3s all;
+}
+.topic {
+    float: left;
+    /* line-height: 150px; */
+    color: lightseagreen;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 200px;
+    margin-top: 70px;
+}
+
+.topic h5{
+    font-size: 20px;
+    /* color: black; */
+    margin-bottom: 25px;
+} 
+.ielts{
+    /* background-color: black; */
+    width: 500px;
+    height: 100px;
+    margin-top: 100px;
+    margin-left: 200px;
+    /* text-align: left;
+    line-height: 200px;
+    font-size: 25px;
+    margin-top: 15px;
+    padding-right: 20px; */
+}
+.images .myslides{
+    display: none;
+    height: 500px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.ielts h5{
+    background-color: blue;
+    padding-left: 150px;
+}
+.main .flex-container .flex-items5{
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 30px;
+    width: 800px;
+    height: 500px;
+    padding: 5px;
+
+}
+.login{
+    border: 1px solid darkgray;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    width: 400px;
+    height: 450px;
+    padding: 50px;
+    text-align: center;
+}
+.login .btn{
+    background-color: rgb(23, 187, 241);
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    margin-left: 200px;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+.login .btn:hover{
+    background-color: blue;
+}
+.login input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+.flex-container1{
+    width: 100%;
+    margin-top: 50px;
+    clear: both;
+    flex-direction: left;
+}
+.main .flex-container1 .flex-items4{
+    display: inline-block;
+    margin-left: 10px;
+    opacity: 0.8;
+}
+.main .flex-container1 .flex-items4:hover{
+    display: inline-block;
+    margin-left: 10px;
+    opacity: 1;
+}
+.main .flex-container1 .flex-items4 h5{
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    color: black;
+    margin-bottom: 10px;
+    text-align: center;
+}
